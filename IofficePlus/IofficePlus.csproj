@@ -18,6 +18,12 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IofficePlus.Dados\IofficePlus.Dados.csproj" />
+    <ProjectReference Include="..\IofficePlus.Dominio\IofficePlus.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
